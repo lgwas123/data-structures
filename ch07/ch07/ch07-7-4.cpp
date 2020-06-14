@@ -135,7 +135,7 @@ int main() {
 
 	while (1) {
 		menu();
-		scanf(" %c", &choice);
+		scanf_s(" %c", &choice);
 
 		switch (choice - '0') {
 		case 1: printf("\t[이진 트리 출력]");
@@ -143,17 +143,17 @@ int main() {
 			break;
 
 		case 2: printf("삽입할 문자를 입력하세요 : ");
-			scanf(" %c", &key);
+			scanf_s(" %c", &key);
 			insertNode(root, key);
 			break;
 
 		case 3: printf("삭제할 문자를 입력하세요 : ");
-			scanf(" %c", &key);
+			scanf_s(" %c", &key);
 			deleteNode(root, key);
 			break;
 
 		case 4: printf("찾을 문자를 입력하세요 : ");
-			scanf(" %c", &key);
+			scanf_s(" %c", &key);
 			foundedNode = searchBST(root, key);
 			if (foundedNode != NULL)
 				printf("\n %c를 찾았습니다! \n", foundedNode->key);
