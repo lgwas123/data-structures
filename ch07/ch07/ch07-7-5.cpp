@@ -122,7 +122,7 @@ treeNode* searchTree(treeNode* root, element x) {
 		else p = p->right;
 	}
 	count++;
-	printf("%3d번쨰에 탐색 실패! 찾는 키가 없습니다!", count);
+	printf("%3d번째에 탐색 실패! 찾는 키가 없습니다!", count);
 	return p;
 }
 
