@@ -30,6 +30,15 @@
     <ClCompile Include="실습4-3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="IntQueue.h">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="IntQueue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="IntQueueTest.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IntStack.h">
