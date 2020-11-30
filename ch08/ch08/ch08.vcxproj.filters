@@ -24,5 +24,11 @@
     <ClCompile Include="8-9.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="8-10.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="8-11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
